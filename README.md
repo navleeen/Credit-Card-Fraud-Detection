@@ -42,8 +42,6 @@ Before building the model, I preprocessed the data like scaling, balancing and t
 
 2.3 SMOTE - In this technique, instead of simply duplicating data from the minority class, we synthesize new data from the minority class.
 
-2.4 ADASYN - ADASYN (Adaptive Synthetic) is an algorithm that generates synthetic data, and its greatest advantages are not copying the same minority data, and generating more data for “harder to learn” examples.
-
 3. Splitting the data - I have split the data into 70:30 ration. 70% of data is used as training data and the rest 30% is used as testing data. shuffle=True,stratify=y. Stratify parameter makes a split so that the proportion of values in the sample produced will be the same as the proportion of values provided to parameter stratify. For example, our dataset contains around 0.17% of fraud transaction and 98.83% genuine transaction, so stratify=y will make sure that your random split has the same ratio.
 
 Logistic Regression is a statistical model that tries to minimize the cost of how wrong a prediction is. Random Forests is an ensemble of decision trees that collectively predict if a transaction is fraudulent or not.
