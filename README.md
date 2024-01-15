@@ -61,22 +61,28 @@ Once the model is built I evaluated each machine learning models and found which
 
 ### Performance Measurement of Models
 
-Accuracy: The measure of correct predictions made by the model – that is, the ratio of fraud transactions classified as fraud and non-fraud classified as non-fraud to the total transactions in the test data.
+#### Accuracy: 
+The measure of correct predictions made by the model – that is, the ratio of fraud transactions classified as fraud and non-fraud classified as non-fraud to the total transactions in the test data.
 
 Recall / Sensitivity: Sensitivity, or True Positive Rate, or Recall, is the ratio of correctly identified fraud cases to total fraud cases.
 
-Specificity: Specificity, or True Negative Rate, is the ratio of correctly identified non-fraud cases to total non-fraud cases.
+#### Specificity: 
+Specificity, or True Negative Rate, is the ratio of correctly identified non-fraud cases to total non-fraud cases.
 
 Specificity = TN / (TN + FP)
 
-Precision: Precision is the ratio of correctly predicted fraud cases to total predicted fraud cases.
+#### Precision: 
+Precision is the ratio of correctly predicted fraud cases to total predicted fraud cases.
 
-F1 Score: F1 score a combination of recall and precision into one metric. F1 score is the weighted average of precision and recall, taking BOTH false positives and false negatives into account. Usually much more useful than accuracy, especially with uneven classes.
+#### F1 Score: 
+F1 score a combination of recall and precision into one metric. F1 score is the weighted average of precision and recall, taking BOTH false positives and false negatives into account. Usually much more useful than accuracy, especially with uneven classes.
 
-Receiver Operating Characteristics (ROC) Curve: It is an evaluation metric that helps identify the strength of the model to distinguish between two outcomes. It defines if a model can create a clear boundary between the positive and the negative class.
+#### Receiver Operating Characteristics (ROC) Curve: 
+It is an evaluation metric that helps identify the strength of the model to distinguish between two outcomes. It defines if a model can create a clear boundary between the positive and the negative class.
 
 It is a plot between Sensitivity and ( 1 - Specificity ), which intuitively is a plot between True Positive Rate and False Positive Rate. It depicts if a model can clearly identify each class or not
 
 Higher the area under the curve, better the model and it's the ability to separate the positive and negative class.
 
-Result: All of the scores for Random Forest balanced with OverSampling and SMOTE models are very promising. Both models have a high Recall and ROC, which is exactly what I am looking for.
+#### Result: 
+All of the scores for Random Forest balanced with OverSampling and SMOTE models are very promising. Both models have a high Recall and ROC, which is exactly what I am looking for.
