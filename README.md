@@ -53,9 +53,6 @@ I build the various models with a different algorithm after implementing the var
 I build the models using
 
 Logistic Regression
-Decision Trees
-Random Forest
-Naive Bayes Classifier
 
 Once the model is built I evaluated each machine learning models and found which one is best. Then I used the best model to predict the unseen transaction to find whether it is fraud or genuine.
 
